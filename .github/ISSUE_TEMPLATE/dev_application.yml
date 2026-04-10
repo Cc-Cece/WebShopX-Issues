@@ -1,0 +1,56 @@
+name: 👨‍💻 Developer/Pro-User Application
+description: 申请加入 WebShopX 协作组（仅限开发者或重度用户）
+title: "[APPLY]: "
+labels: ["help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你对 WebShopX 的关注！请填写以下表单申请加入。非开发者或非重度用户申请将被直接关闭。
+  
+  - type: checkboxes
+    id: role
+    attributes:
+      label: 申请身份
+      description: 请选择最符合你的身份
+      options:
+        - label: 开发者 (熟悉 Java 21 / Kotlin / Gradle)
+          required: false
+        - label: 重度专业用户 (具备技术背景，能提供深度测试或文档支持)
+          required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 方便我们找到你的 QQ 或 Discord
+      placeholder: "例如: QQ 12345678"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景信息
+      description: 请简述你的开发经验或在 MC 社区的贡献
+      placeholder: "例如：曾开发过某某插件、熟悉 MariaDB 优化等"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: 预期贡献
+      description: 你打算在哪些方面提供帮助？
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 准入确认
+      options:
+        - label: 我理解 WebShopX 目前处于闭源公测阶段，承诺遵守协作保密协定。
+          required: true
+        - label: 我确认自己并非普通咨询用户。
+          required: true
