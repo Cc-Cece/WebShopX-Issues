@@ -1,0 +1,68 @@
+name: 🐛 Bug Report
+description: 报告插件运行中的错误或异常
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈 Bug！请详细填写以下信息以帮助我们定位问题。
+  
+  - type: input
+    id: version
+    attributes:
+      label: 插件版本
+      placeholder: "例如: v1.0.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: server_type
+    attributes:
+      label: 服务器核心版本
+      options:
+        - Paper 1.21.x
+        - Paper 1.20.6
+        - Spigot 1.20.6+
+        - 其他 (请在下方备注)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 清晰简洁地描述 Bug 是什么。
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 告诉我们如何触发这个 Bug。
+      placeholder: |
+        1. 输入指令 ...
+        2. 打开界面 ...
+        3. 发生错误 ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 错误日志 / 截图
+      description: 请在此粘贴完整的报错日志（推荐）或上传截图链接。
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认项
+      options:
+        - label: 我已确认使用的是 Java 21 环境。
+          required: true
+        - label: 我已搜索过 Issue 列表，确认没有重复的报告。
+          required: true
