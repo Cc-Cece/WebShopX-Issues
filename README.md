@@ -1,6 +1,6 @@
 # WebShopX Issues & Feedback
 
-[WebshopX使用文档](./README-WebShopX.md)
+[WebShopX README](./README-WebShopX.md) | [WebshopX Wiki](https://github.com/Cc-Cece/WebShopX-Issues/wiki)
 
 **WebShopX** 是一款面向 Paper / Spigot 服务器的专业 Web 商店插件。它将官方商城、玩家市场、钱包、订单系统和后台管理深度集成，提供一站式的商业化解决方案。
 
