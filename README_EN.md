@@ -66,7 +66,7 @@ The README provides only a project overview. Configuration, commands, deployment
 | Repository                                                   | Description                                           |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
 | [WebShopX-Issues](https://github.com/Cc-Cece/WebShopX-Issues) | Bug reports, feature requests, and community feedback |
-| https://github.com/Prism-Committee/docs                      | Official WebShopX documentation                       |
+| [Wiki](https://github.com/Prism-Committee/docs)                      | Official WebShopX documentation                       |
 
 ## Contributing
 
