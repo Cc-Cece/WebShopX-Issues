@@ -66,7 +66,7 @@ README 仅提供项目概览。配置、命令、部署、API 和详细使用方
 | 仓库                                                         | 说明                    |
 | ------------------------------------------------------------ | ----------------------- |
 | [WebShopX-Issues](https://github.com/Cc-Cece/WebShopX-Issues) | Bug、功能建议与社区反馈 |
-| https://github.com/Prism-Committee/docs                      | WebShopX 官方文档       |
+| [Wiki](https://github.com/Prism-Committee/docs)                      | WebShopX 官方文档       |
 
 ## 参与贡献
 
